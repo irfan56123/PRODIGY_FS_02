@@ -1,3 +1,6 @@
+##Login Credential 
+Admin (Email- admin@admin.com, password - admin123)
+
 ##Abstract:
 It is a web application which is a complete human resource management system which keeps the information about the human resource, educational background of all employees, their  recent experiences, their attendance, their  leaves management and their current allocated projects. Administration panel will be created to manage all the information of hired employees. It will contain the statistics about the employee hiring ratio from different institutions and the average turnover of employees from different institutions. This project is built on Node Express which is is a web application framework for Node.js and the front end is created using HTML, Bootstrap, CSS and JS.  
 
