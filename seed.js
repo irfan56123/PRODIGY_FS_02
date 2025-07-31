@@ -1,11 +1,12 @@
-
+const dotenv = require('dotenv');
+dotenv.config();
 var User= require('./models/user');
 var bcrypt = require('bcrypt');
 
 const hashedPassword = bcrypt.hashSync("123456", 5);
 var mongoose= require('mongoose');
 mongoose.Promise = global.Promise;
-const MONGODB_URL = "mongodb+srv://deepak_singh_5219:singhdeepak@cluster0.r3b1b.mongodb.net/emsdb";
+const MONGODB_URL = process.env.MONGODB_URL;
 mongoose.connect(MONGODB_URL);
 
 var users=[
